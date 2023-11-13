@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.grocery-list, .my-list {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 40%;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+li:hover {
+  color: blue;
+}
+
+p {
+  font-weight: bold;
+}
+
+.app {
+  position: relative; 
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.github-logo {
+  height: 30px; 
+}
+
+
